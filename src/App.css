@@ -37,6 +37,9 @@ body{
 .page-title {
     font-size: 1.5rem;
     font-weight: bold;
+    font-family: 'Inter', sans-serif;
+    color: white;
+
 }
 
 .tweet-editor {
