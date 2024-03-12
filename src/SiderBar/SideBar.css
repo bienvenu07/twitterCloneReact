@@ -2,14 +2,32 @@
 *{
      text-decoration:none
 }
+ .sidebar{
+    width: 20%;
+    margin-left: 1.5rem;
+    margin-top: 1rem;
+    height: 100vh;
+ }
 
+ .sidebar-content {
+    height: 85%;
+ }
 
-.page-title {
-    font-size: 1.5rem;
+.page-title-sidebare {
+    font-size: 1rem;
     font-weight: bold;
     font-family: 'Inter', sans-serif;
     color: white;
 
+
+}
+.side-nav {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
 }
 
 .User-smollfotter{

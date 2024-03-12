@@ -15,43 +15,60 @@ import ProfilePhoto from "../assets/img/Profile-Photo.svg"
 
 export default function SideBar(){
     return(
-        <div>
-            <Link to ="/">
+        <div className="sidebar">
+           <div className="sidebar-content">
+           <Link to ="/">
                 <img src={Twitter}  alt=""/>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={HomeFille}  alt=""/>
-                <div className="page-title"> Home</div>
+                <div className="page-title-sidebare"> Home</div>
+                </div>
             </Link>
             <Link to ="/">
-                <img src={Explore}  alt=""/>
-                <div className="page-title"> Explore</div>
+                <div className="side-nav">
+                    <img src={Explore}  alt=""/>
+                <div className="page-title-sidebare"> Explore</div></div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={Notifications}  alt=""/>
-                <div className="page-title"> Notification</div>
+                <div className="page-title-sidebare"> Notification</div>
+                </div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={Messages}  alt=""/>
-                <div className="page-title"> Messages</div>
+                <div className="page-title-sidebare"> Messages</div>
+                </div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={Bookmarks}  alt=""/>
-                <div className="page-title"> Bookmarks</div>
+                <div className="page-title-sidebare"> Bookmarks</div>
+                </div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={Lists}  alt=""/>
-                <div className="page-title"> Lists</div>
+                <div className="page-title-sidebare"> Lists</div>
+                </div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={Profile}  alt=""/>
-                <div className="page-title"> Profile</div>
+                <div className="page-title-sidebare"> Profile</div>
+                </div>
             </Link>
             <Link to ="/">
+                <div className="side-nav">
                 <img src={More}  alt=""/>
-                <div className="page-title"> More</div>
+                <div className="page-title-sidebare"> More</div>
+                </div>
             </Link>
-            <button  style ={{whidth:"80%"}}className="button">Tweet</button>
+            <button  style ={{width:"90%"}} className="button">Tweet</button>
+           </div>
             <div className="User-smollfotter">
                 <img src={ProfilePhoto} alt =""/>
                 <div className="contena-footer">

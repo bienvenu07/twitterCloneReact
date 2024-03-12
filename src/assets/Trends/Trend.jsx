@@ -1,5 +1,8 @@
+import "./Trend.css"
+
 export default function Trends(){
     return(
-        <div>Trends</div>
+        <div className="trend">Trends</div>
+
     )
 }
