@@ -31,12 +31,22 @@
 }
 
 .User-smollfotter{
-    background-color: rgb(148, 123, 92);
+    background-color: black;
     display: flex;
+    justify-content:center;
 }
 
 .contena-footer{
     font-family: 'Inter', sans-serif;
     color: #D9D9D9;
     font-size: 1rem;
+}
+
+.contena-footer h5{
+    margin: 0px;
+}
+
+.contena-footer img {
+    width: 15px;
+    
 }

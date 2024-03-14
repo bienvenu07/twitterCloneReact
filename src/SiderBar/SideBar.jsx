@@ -72,8 +72,8 @@ export default function SideBar(){
             <div className="User-smollfotter">
                 <img src={ProfilePhoto} alt =""/>
                 <div className="contena-footer">
-                    Bradley ortiz <span><img src ={Private} /></span>
-                    <p>@Bradley</p>
+                   <h5> Bradley ortiz       <span><img src ={Private} /></span> </h5> 
+                    <small>@Bradley</small>
                 </div>
             </div>
 
