@@ -2,6 +2,11 @@ import "./Trend.css"
 import search  from  "../icon/iconblanc/Search.svg"
 import setting from "../icon/iconblanc/Settings.svg"
 import more from "../icon/iconblanc/More-2.svg"
+import Tweetavatar2 from "../img/Tweetavatar2.svg"
+import Tweetavatar1 from "../img/Tweetavatar1.svg"
+import Tweetavatar3 from "../img/Tweetavatar3.svg"
+import verified from "../icon/iconblanc/Verified.svg"
+
 
 export default function Trends(){
     return(
@@ -54,6 +59,49 @@ export default function Trends(){
                 </div>
             
           </div>
+          <div className="who-to-follow">
+             
+             <div className="who-to">
+                  <h3> Who to follow</h3>
+             </div>
+             <div className="the-new-york-times">
+                <div className="new-york">
+                <img src={Tweetavatar2} alt=""/>                
+                <h4> The New York Times</h4>
+                <p> @nytimes</p>
+                <img src={verified} alt =""/>
+                <button className ="buttona">Follow</button>
+             </div>
+             
+             <div className="cnn">
+                <img src={Tweetavatar1} alt=""/>
+                <h4> CNN</h4>
+                <p> @CNN</p>
+                <img src={verified} alt =""/>
+                
+                <button className ="buttona">Follow</button>
+             </div>
+
+             <div className="twittera">
+                <img src={Tweetavatar3} alt=""/>
+                <h4> Twitter</h4>
+                <p>@Twitter</p>
+                <img src={verified} alt =""/>
+                <button className ="buttona">Follow</button>
+             </div>
+
+
+             <div className="show-more">
+                    <h3>Show more </h3>
+            </div>
+           </div>
+        </div>
+        <div className="textfooter">  
+             <p>Terms of Service Pivacy Policy Cookie Policy</p>
+            <p> Imprint Ads info More...@2021 Twitter,Inc.</p> 
+        
+        </div>
+            
           
         
         </div>
