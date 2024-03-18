@@ -65,16 +65,25 @@ export default function Trends(){
                   <h3> Who to follow</h3>
              </div>
              <div className="the-new-york-times">
-                <div className="new-york">
-                <img src={Tweetavatar2} alt=""/>                
-                <h4> The New York Times</h4>
-                <p> @nytimes</p>
-                <img src={verified} alt =""/>
-                <button className ="buttona">Follow</button>
-             </div>
+                
+                <div style={{display:"flex",justifyContent:"space-between"}}>
+                    <div className="new-york"> 
+                <img src={Tweetavatar2} alt=""/> 
+
+                    <div className="gaden">          
+                     <h4 style={{padding:0,margin:0}}> The New York Times  <img src={verified} alt =""/>  </h4>
+                     
+                    <p> @nytimes</p>
+                   
+                    </div>
+                
+                    </div>
+                 <button className ="buttona">Follow</button>
+                </div>
              
              <div className="cnn">
                 <img src={Tweetavatar1} alt=""/>
+
                 <h4> CNN</h4>
                 <p> @CNN</p>
                 <img src={verified} alt =""/>
