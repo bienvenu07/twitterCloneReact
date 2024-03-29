@@ -4,7 +4,7 @@ import Tweets from "./Tweets"
 
 
 export default function Timeline1(){
-    return <div className="timeline"> 
+    return <div class="flex-grow-0 basis-800 px:w-1/2 border border-gray-700 font-inter">
         <Header/>
         <TweetEditor/>
         <Tweets/>

@@ -3,7 +3,7 @@ import TweetTitleDetails from "./TweetTitleDetails"
 
 export default function TweetTitle(props){
     return (
-    <div className="tweet-title"> 
+    <div class="flex items-center justify-start gap-2 text-lg"> 
     <TweetTitleAuthor author={props.title.author}/>
     <img src ="src/assets/icon/iconblanc/Verified.svg"/>
     <TweetTitleDetails detail={props.title.detail}/>

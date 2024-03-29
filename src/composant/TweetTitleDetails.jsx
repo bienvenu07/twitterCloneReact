@@ -1,5 +1,5 @@
 
 export default function TweetTitleDetails(props){
     console.log();
-    return( <div className="tweet-title-details">{props.detail}</div>)
+    return( <div  class="text-gray-400">{props.detail}</div>)
 }

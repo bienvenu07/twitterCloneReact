@@ -19,7 +19,7 @@ body{
     font-family: 'Inter', sans-serif;
     border-left: 1px solid #2F3336;
     border-right: 1px solid #2F3336;
-    width: 50%;
+    width: 45%;
 }
 
 .header {
@@ -168,6 +168,8 @@ body{
 }
 
 .tweet-image img{
+    width: 100%;
+    padding:  .3rem 0 0 0;
     max-width: 100%;
     height: auto;
     border-radius: 50px;

@@ -1,5 +1,5 @@
 
 export default function PageTitle(){
     return (
-    <div className="page-title"> Home</div>)
+    <div class="text-xl font-bold text-white font-inter"> Home</div>)
 }
