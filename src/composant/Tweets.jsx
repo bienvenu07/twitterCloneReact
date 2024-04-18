@@ -3,6 +3,7 @@ import TweetAvatar1 from "../assets/img/Tweetavatar1.svg"
 import TweetAvatar2 from "../assets/img/Tweetavatar2.svg"
 import TweetAvatar3 from "../assets/img/Tweetavatar3.svg"
 import Tweetimage from "../assets/img/Tweetimage.svg"
+import { TweetContext } from "../context/Tweetcontext"
 
 
 export default function Tweets(){
@@ -121,7 +122,9 @@ export default function Tweets(){
     ]
 
     return ( <div className="tweets"> 
-     {tweets.map((element)=> <Tweet key={element.id} table={element} />)}
-    
+   
+        
+        {tweets.map((element)=> <Tweet key={element.id} table={element} />)}
+
     </div>)
 }

@@ -10,12 +10,12 @@ import Profile from "../assets/icon/iconblanc/Profile.svg"
 import More from "../assets/icon/iconblanc/More.svg"
 import "./SideBar.css"
 import Private from "../assets/icon/iconblanc/Private.svg"
-import ProfilePhoto from "../assets/img/Profile-Photo.svg"
+import ProfilePhoto from "../assets/img/Profile-Photo.png"
 
 
 export default function SideBar(){
     return(
-        <div className="sidebar">
+        <div className="w-[30%] ml-[1.5rem] mt-[1rem] h-[100vh]">
            <div className="sidebar-content">
            <Link to ="/">
                 <img src={Twitter}  alt=""/>
