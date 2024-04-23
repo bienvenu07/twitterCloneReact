@@ -2,9 +2,9 @@ import "./Trend.css"
 import search  from  "../icon/iconblanc/Search.svg"
 import setting from "../icon/iconblanc/Settings.svg"
 import more from "../icon/iconblanc/More-2.svg"
-import Tweetavatar2 from "../img/Tweetavatar2.svg"
-import Tweetavatar1 from "../img/Tweetavatar1.svg"
-import Tweetavatar3 from "../img/Tweetavatar3.svg"
+import Tweetavatar2 from "/Tweetavatar2.svg"
+import Tweetavatar1 from "/Tweetavatar1.svg"
+import Tweetavatar3 from "/Tweetavatar3.svg"
 import verified from "../icon/iconblanc/Verified.svg"
 
 

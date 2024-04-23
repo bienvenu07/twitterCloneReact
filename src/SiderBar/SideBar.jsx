@@ -10,7 +10,7 @@ import Profile from "../assets/icon/iconblanc/Profile.svg"
 import More from "../assets/icon/iconblanc/More.svg"
 import "./SideBar.css"
 import Private from "../assets/icon/iconblanc/Private.svg"
-import ProfilePhoto from "../assets/img/Profile-Photo.png"
+import ProfilePhoto from "/Profile-Photo.png"
 
 
 export default function SideBar(){

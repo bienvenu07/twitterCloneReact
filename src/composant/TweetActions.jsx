@@ -21,7 +21,7 @@ export default function TweetActions(props){
             setCount(!count);
     }
     console.log("text-run:" ,typeof(props.actions.Reply));
-    return (<div class="flex items-center justify-center gap-20 text-gray-400 text-sm">
+    return (<div className="flex items-center justify-center gap-20 text-gray-400 text-sm">
                 
     <TweetAction icon={reply} Reply={props.actions.Reply}/>
     <TweetAction icon={retweet} Reply={props.actions.Retweet}/>
