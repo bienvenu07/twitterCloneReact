@@ -1,13 +1,13 @@
 
 import { useContext, useState } from "react"
 import { TweetContext } from "./TweetContext"
-import data from "../data/data.json"
+import Data from "../data/data.json"
 
 const TweetProvider = ( {children})=>{
-    const{data}=useContext(TweetContext);
-    const []= useState();
+    const [post ,setPost]= useState(Data);
+    const [tweetData ,setTweetData]=useState(Data.tweets)
     return (
-      <TweetContext.Provider value={{data}}>
+      <TweetContext.Provider value={{ post,setPost,tweetData,setTweetData}}>
              {children}
       </TweetContext.Provider>  
     )

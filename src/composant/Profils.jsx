@@ -1,7 +1,7 @@
 
 export default function Profils(){
     return (
-    <div class="profils">
+    <div className="profils">
         <h1>Figma</h1>
     </div>
     )
